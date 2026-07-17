@@ -11,7 +11,7 @@ interface AvatarProps {
 export function Avatar({ alt, className = '' }: AvatarProps) {
   return (
     <img
-      src="/avatar.webp"
+      src={`${import.meta.env.BASE_URL}avatar.webp`}
       alt={alt}
       width={400}
       height={400}

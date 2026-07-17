@@ -21,6 +21,9 @@ import type {
 /* Dados independentes de idioma                                       */
 /* ------------------------------------------------------------------ */
 
+/** Prefixa arquivos de /public com o base do Vite (raiz ou subcaminho). */
+const publicAsset = (file: string) => `${import.meta.env.BASE_URL}${file}`
+
 export const socialLinks: SocialLink[] = [
   {
     label: 'GitHub',
@@ -89,7 +92,7 @@ const pt: PortfolioContent = {
       'Gosto de resolver problemas reais com software bem feito. Trabalho o produto inteiro: do backend em Java e Spring Boot à interface em React, com a nuvem sustentando tudo.',
     location: 'Curitiba, PR - Brasil',
     email: 'tiagogorridev@gmail.com',
-    resumeUrl: '/cv-pt.pdf',
+    resumeUrl: publicAsset('cv-pt.pdf'),
     aboutParagraphs: [
       'Desenvolvedor Full Stack com experiência profissional em Java, Spring Boot, React e TypeScript, atualmente na Wise Systems trabalhando em aplicações web escaláveis. Sou estudante de Engenharia de Software na PUCPR (6º período), com forte interesse em desenvolvimento backend e computação em nuvem.',
       'Tenho experiência com APIs REST, SQL e desenvolvimento full stack, além de tecnologias como Angular, Python, Go, Microsoft Azure e AWS. Sou certificado Microsoft Azure Fundamentals (AZ-900) e AWS Certified AI Practitioner (AIF-C01).',
@@ -369,7 +372,7 @@ const en: PortfolioContent = {
       'I like solving real problems with well-crafted software. I work across the whole product: from Java and Spring Boot on the backend to React on the front, with the cloud holding it all together.',
     location: 'Curitiba, PR - Brazil',
     email: 'tiagogorridev@gmail.com',
-    resumeUrl: '/cv-en.pdf',
+    resumeUrl: publicAsset('cv-en.pdf'),
     aboutParagraphs: [
       "Full Stack Developer with professional experience in Java, Spring Boot, React and TypeScript, currently at Wise Systems working on scalable web applications. I'm a Software Engineering student at PUCPR (6th semester), with a strong interest in backend development and cloud computing.",
       "I'm experienced in REST APIs, SQL and full stack development, as well as technologies such as Angular, Python, Go, Microsoft Azure and AWS. I hold the Microsoft Certified: Azure Fundamentals (AZ-900) and AWS Certified AI Practitioner (AIF-C01) certifications.",
