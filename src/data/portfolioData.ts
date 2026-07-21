@@ -89,7 +89,7 @@ const pt: PortfolioContent = {
     role: 'Full Stack Developer',
     specialties: ['Java', 'React', 'Cloud'],
     tagline:
-      'Gosto de resolver problemas reais com software bem feito. Trabalho o produto inteiro: do backend em Java e Spring Boot à interface em React, com a nuvem sustentando tudo.',
+      'Desenvolvedor Full Stack na Wise Systems, construindo aplicações web escaláveis com Java, Spring Boot, React e TypeScript. Estudante de Engenharia de Software na PUCPR, com foco em backend e computação em nuvem.',
     location: 'Curitiba, PR - Brasil',
     email: 'tiagogorridev@gmail.com',
     resumeUrl: publicAsset('cv-pt.pdf'),
@@ -369,7 +369,7 @@ const en: PortfolioContent = {
     role: 'Full Stack Developer',
     specialties: ['Java', 'React', 'Cloud'],
     tagline:
-      'I like solving real problems with well-crafted software. I work across the whole product: from Java and Spring Boot on the backend to React on the front, with the cloud holding it all together.',
+      'Full Stack Developer at Wise Systems, building scalable web applications with Java, Spring Boot, React and TypeScript. Software Engineering student at PUCPR, focused on backend development and cloud computing.',
     location: 'Curitiba, PR - Brazil',
     email: 'tiagogorridev@gmail.com',
     resumeUrl: publicAsset('cv-en.pdf'),
