@@ -89,13 +89,13 @@ const pt: PortfolioContent = {
     role: 'Full Stack Developer',
     specialties: ['Java', 'React', 'Cloud'],
     tagline:
-      'Gosto de resolver problemas reais com software bem feito. Trabalho o produto inteiro: do backend em Java e Spring Boot à interface em React, com a nuvem sustentando tudo.',
+      'Desenvolvedor Full Stack na Wise Systems, construindo aplicações web escaláveis com Java, Spring Boot, React e TypeScript. Estudante de Engenharia de Software na PUCPR, com foco em backend e computação em nuvem.',
     location: 'Curitiba, PR - Brasil',
     email: 'tiagogorridev@gmail.com',
     resumeUrl: publicAsset('cv-pt.pdf'),
     aboutParagraphs: [
       'Desenvolvedor Full Stack com experiência profissional em Java, Spring Boot, React e TypeScript, atualmente na Wise Systems trabalhando em aplicações web escaláveis. Sou estudante de Engenharia de Software na PUCPR (6º período), com forte interesse em desenvolvimento backend e computação em nuvem.',
-      'Tenho experiência com APIs REST, SQL e desenvolvimento full stack, além de tecnologias como Angular, Python, Go, Microsoft Azure e AWS. Sou certificado Microsoft Azure Fundamentals (AZ-900) e AWS Certified AI Practitioner (AIF-C01).',
+      'Tenho experiência com APIs REST, SQL e desenvolvimento full stack, além de tecnologias como Angular, Python, Go, Microsoft Azure e AWS. Sou certificado Microsoft Azure Fundamentals (AZ-900), AWS Certified Cloud Practitioner (CLF-C02) e AWS Certified AI Practitioner (AIF-C01).',
       'Falo inglês fluentemente, após 10 anos de formação na Wizard. Busco sempre evoluir tecnicamente e contribuir com soluções de qualidade, código bem estruturado e trabalho em equipe.',
     ],
   },
@@ -178,6 +178,11 @@ const pt: PortfolioContent = {
     {
       issuer: 'Amazon Web Services (AWS)',
       certifications: [
+        {
+          title: 'AWS Certified Cloud Practitioner (CLF-C02)',
+          date: 'Ago 2026',
+          featured: true,
+        },
         {
           title: 'AWS Certified AI Practitioner (AIF-C01)',
           date: 'Jul 2026',
@@ -369,13 +374,13 @@ const en: PortfolioContent = {
     role: 'Full Stack Developer',
     specialties: ['Java', 'React', 'Cloud'],
     tagline:
-      'I like solving real problems with well-crafted software. I work across the whole product: from Java and Spring Boot on the backend to React on the front, with the cloud holding it all together.',
+      'Full Stack Developer at Wise Systems, building scalable web applications with Java, Spring Boot, React and TypeScript. Software Engineering student at PUCPR, focused on backend development and cloud computing.',
     location: 'Curitiba, PR - Brazil',
     email: 'tiagogorridev@gmail.com',
     resumeUrl: publicAsset('cv-en.pdf'),
     aboutParagraphs: [
       "Full Stack Developer with professional experience in Java, Spring Boot, React and TypeScript, currently at Wise Systems working on scalable web applications. I'm a Software Engineering student at PUCPR (6th semester), with a strong interest in backend development and cloud computing.",
-      "I'm experienced in REST APIs, SQL and full stack development, as well as technologies such as Angular, Python, Go, Microsoft Azure and AWS. I hold the Microsoft Certified: Azure Fundamentals (AZ-900) and AWS Certified AI Practitioner (AIF-C01) certifications.",
+      "I'm experienced in REST APIs, SQL and full stack development, as well as technologies such as Angular, Python, Go, Microsoft Azure and AWS. I hold the Microsoft Certified: Azure Fundamentals (AZ-900), AWS Certified Cloud Practitioner (CLF-C02) and AWS Certified AI Practitioner (AIF-C01) certifications.",
       "I'm fluent in English after 10 years of formal studies at Wizard, always looking to grow technically and contribute with high-quality solutions, well-structured code and collaborative teamwork.",
     ],
   },
@@ -458,6 +463,11 @@ const en: PortfolioContent = {
     {
       issuer: 'Amazon Web Services (AWS)',
       certifications: [
+        {
+          title: 'AWS Certified Cloud Practitioner (CLF-C02)',
+          date: 'Aug 2026',
+          featured: true,
+        },
         {
           title: 'AWS Certified AI Practitioner (AIF-C01)',
           date: 'Jul 2026',
